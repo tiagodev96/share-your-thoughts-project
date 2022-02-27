@@ -1,0 +1,73 @@
+:root {
+  --dark: #312f2f;
+  --red-light: #d46370;
+  --red: #b23a48;
+  --beige: #eff2ef;
+}
+
+body {
+  background: var(--beige);
+}
+
+h1 span {
+  color: var(--red);
+}
+
+h1 {
+  color: #312f2f;
+}
+
+i {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+i:hover {
+  transform: scale(1.1);
+}
+
+textarea {
+  color: var(--dark) !important;
+}
+
+textarea:focus {
+  border: rgba(178, 58, 72, 0.35) !important;
+  box-shadow: 0 0 0 0.25rem rgba(178, 58, 72, 0.35) !important;
+}
+
+label {
+  color: var(--red);
+}
+
+.form-control {
+  height: 150px !important;
+}
+
+.btn-danger {
+  background: var(--red);
+  border-color: var(--red);
+  transition: 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: var(--red-light);
+  border-color: var(--red-light);
+  transform: scale(1.05);
+}
+
+.card {
+  background-color: var(--dark);
+  color: var(--beige);
+}
+
+.card-body {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.errorAlert {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
